@@ -1,0 +1,36 @@
+# --- Système ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Langages & Frameworks ---
+# Node
+node_modules/
+dist/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Java / Kotlin
+target/
+build/
+.gradle/
+
+# --- Sécurité & Environnement ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secret
